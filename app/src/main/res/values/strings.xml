@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MUSIC</string>
+    <string name="s_songsInfo">Songs Information</string>
+    <string name="s_genresInfo">Genres Information</string>
+    <string name="s_login_title">LOGIN</string>
+    <string name="s_login_user">Username</string>
+    <string name="s_login_pass">Password</string>
+    <string name="s_song_id">ID: </string>
+    <string name="s_song_name">NAME: </string>
+    <string name="s_song_author">AUTHOR: </string>
+    <string name="s_song_genres">GENRES: </string>
+    <string name="s_song_time">TIME: </string>
+    <string name="s_btnADD">ADD</string>
+    <string name="s_btnUpdate">UPDATE</string>
+    <string name="s_btnDelete">DELETE</string>
+    <string name="s_btnCancel">CANCEL</string>
+    <string name="s_btnChoose">CHOOSE</string>
+    <string name="s_btnTake">TAKE</string>
+    <string name="s_btnLogin">LOGIN</string>
+    <string name="s_succeeded">Save successed</string>
+    <string name="s_about_name">NAME: Bui Minh Phuc</string>
+    <string name="s_about_id">ID: DH52103682</string>
+    <string name="s_about_class">CLASS: D21_TH01</string>
+    <string name="s_about_phone">PHONE: 0359128746</string>
+    <string name="s_about_btnCall">CALL</string>
+    <string name="s_menu_song">SONGS</string>
+    <string name="s_menu_genres">GENRES</string>
+    <string name="s_menu_about">ABOUT</string>
+    <string name="s_menu_setting">SETTING</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="s_about_location">Location</string>
+    <string name="s_notnull">Cannot Empty</string>
+    <string name="s_addsuccess">Add successful</string>
+    <string name="s_error">Error</string>
+    <string name="s_UpdateSuc">Update Success</string>
+    <string name="s_GenresInvalid">Genres is invalid</string>
+
+
+</resources>

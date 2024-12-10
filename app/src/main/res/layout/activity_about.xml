@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4161FF"
+            android:id="@+id/toolBarAbout"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_about_name"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:background="@color/gray"
+            android:textColor="@color/green"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_about_id"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:background="#FF9966"
+            android:textColor="#000080"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_about_class"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: phucbui5655@gmail.com"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:background="@color/green"
+            android:textColor="@color/red"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_about_phone"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:background="@color/organe"
+            android:textColor="@color/blue"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_about_btnCall"
+            android:textSize="10pt"
+            android:id="@+id/btnCall"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_about_location"
+            android:textSize="10pt"
+            android:gravity="center"/>
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapsActivity" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/genresBar"
+        android:title="@string/s_menu_genres"/>
+    <item
+        android:id="@+id/musicBar"
+        android:title="@string/s_menu_song"/>
+    <item
+        android:id="@+id/aboutBar"
+        android:title="@string/s_menu_about"/>
+    <item
+        android:id="@+id/settingBar"
+        android:title="@string/s_menu_setting"/>
+</menu>

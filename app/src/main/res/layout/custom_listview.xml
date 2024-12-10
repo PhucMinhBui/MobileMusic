@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imgSong"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="77dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Mã: "
+                android:textSize="10pt"
+                android:id="@+id/txtId"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tên: "
+                android:textSize="10pt"
+                android:id="@+id/txtName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tác giả: "
+                android:textSize="10pt"
+                android:id="@+id/txtAuthor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Thể loại: "
+                android:textSize="10pt"
+                android:id="@+id/txtgenres"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Thời lượng: "
+                android:textSize="10pt"
+                android:id="@+id/txtTime"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

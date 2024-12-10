@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bài Hát</string>
+    <string name="s_songsInfo">Thông tin bài hát</string>
+    <string name="s_genresInfo">Thông tin bài hát</string>
+    <string name="s_login_title">Đăng nhập</string>
+    <string name="s_login_user">Tên tài khoản</string>
+    <string name="s_login_pass">Mật khẩu</string>
+    <string name="s_song_id">MÃ: </string>
+    <string name="s_song_name">TÊN: </string>
+    <string name="s_song_author">Tác giả: </string>
+    <string name="s_song_genres">Thể loai: </string>
+    <string name="s_song_time">Thời lượng: </string>
+    <string name="s_btnADD">Thêm</string>
+    <string name="s_btnUpdate">Sửa</string>
+    <string name="s_btnDelete">Xóa</string>
+    <string name="s_btnCancel">Hủy</string>
+    <string name="s_btnChoose">Chọn</string>
+    <string name="s_btnTake">Chụp</string>
+    <string name="s_btnLogin">Đăng nhập</string>
+    <string name="s_succeeded">Lưu thành công</string>
+    <string name="s_about_name">Tên: Bùi Minh Phúc</string>
+    <string name="s_about_id">MSSV: DH52103682</string>
+    <string name="s_about_class">Lớp: D21_TH01</string>
+    <string name="s_about_phone">SDT: 0359128746</string>
+    <string name="s_about_btnCall">Gọi</string>
+    <string name="s_menu_song">Bài hát</string>
+    <string name="s_menu_genres">Thể loại</string>
+    <string name="s_menu_about">Thông tin</string>
+    <string name="s_menu_setting">Cài đặt</string>
+    <string name="title_activity_maps">Địa chỉ</string>
+    <string name="s_about_location">Địa chỉ</string>
+    <string name="s_notnull">Không được để trống</string>
+    <string name="s_addsuccess">Thêm thành công</string>
+    <string name="s_error">Lỗi</string>
+    <string name="s_UpdateSuc">Sửa thành công</string>
+    <string name="s_GenresInvalid">Thể loại không hợp lệ</string>
+
+
+</resources>
